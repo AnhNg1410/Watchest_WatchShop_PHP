@@ -1,0 +1,31 @@
+.sign-dashboard {
+    margin-left: 20px;
+}
+
+.signIn-button {
+    color: white;
+    margin-left: 35px;
+}
+
+.onTopHome {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.onTopShop {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.onTopButton{
+    font-size: large;
+    width: 100%;
+}
+
+.error {
+    color: red;
+}
+
+.container-colorBackground {
+    background-color: rgb(180, 180, 180);
+}

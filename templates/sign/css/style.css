@@ -1,0 +1,301 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-image: url("https://getwallpapers.com/wallpaper/full/6/1/9/499555.jpg");
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	margin: 40px 0 20px;
+}
+
+h1 {
+	font-size: 35px;
+	font-weight: bold;
+	margin: 0;
+	color: #ffffff;
+}
+
+.h1TextSignUp {
+	margin-bottom: 5%;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+span {
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.errorSignIn {
+	font-weight: 600;
+	color: rgba(200, 0, 0, 0.7);
+}
+
+.errorSignUp {
+	color: rgba(200, 0, 0, 0.7);
+}
+
+.warningSignUp {
+	color: rgb(255, 234, 0);
+}
+
+a {
+	color: #ffffff;
+	font-size: 15px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+.linkForgot {
+	margin-top: 100% 0;
+}
+
+button {
+	border-radius: 15px;
+	border: 1px solid #ffffffa5;
+	background-color: #ffffffa5;
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+.buttonSignUp {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+	
+.buttonSignIn {
+	margin-top: 5px;
+}
+
+.buttonHome {
+	border-radius: 10px;
+	border: 1px solid #00000030;
+	background-color: #00000050;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 800px;
+	max-width: 100%;
+	min-height: 12px;
+	max-height: 100%;
+	font-size: larger;
+	font-weight: 600;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.ghost {
+	border-color: #ffffff;
+	border: 1px solid #ffffffa5;
+	background-color: #ffffffa5;
+}
+
+form {
+	background-color: #0000006a;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+}
+
+input {
+	background-color: #0000008e;
+	border: none;
+	border-radius: 10px;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+	color: #ffffff;
+}
+
+.alert {
+	position: fixed; /* or absolute, depending on your preference */
+	z-index: 9999; /* Set a high z-index to ensure it appears on top of other elements */
+	top: 5px; /* Adjust as needed to position the alert at the top of the viewport */
+	left: 20px; /* Adjust as needed to position the alert at the left of the viewport */
+	right: 20px; /* Adjust as needed to position the alert at the right of the viewport */
+	padding: 25px; /* Adjust padding as needed */
+	border-radius: 20px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.alert-success {
+	background-color: #48ff004c; /* Change the background color to match your desired style */
+	color: #ffffff; /* Change the text color to match your desired style */
+	border: 1px solid #48ff002e; /* Add a border for better visibility */
+}
+
+.alert-danger {
+	background-color: #ff00004c; /* Change the background color to match your desired style */
+	color: #ffffff; /* Change the text color to match your desired style */
+	border: 1px solid #ff00002e; /* Add a border for better visibility */
+}
+
+.container {
+	background-color: rgba(255, 0, 0, 0);
+	backdrop-filter: blur(2px);
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.25);
+	position: relative;
+	overflow: hidden;
+	width: 800px;
+	max-width: 100%;
+	min-height: 500px;
+	max-height: 100%;
+}
+
+.container-button {
+	background-color: rgba(255, 0, 0, 0);
+	backdrop-filter: blur(3px);
+	border-radius: 5px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.25);
+	position: relative;
+	overflow: hidden;
+	width: 800px;
+	max-width: 100%;
+	min-height: 12px;
+	max-height: 100%;
+}
+
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+.sign-in-container {
+	left: 0;
+	width: 60%;
+	z-index: 1;
+}
+
+.sign-up-container {
+	left: 0;
+	width: 60%;
+	z-index: 1;
+}
+
+.container.right-panel-active .sign-up-container {
+	opacity: 1;
+	z-index: 1;
+}
+
+.overlay-container {
+	position: absolute;
+	top: 0;
+	left: 60%;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 100;
+}
+
+.overlay {
+	background: #00ff6200;
+	background: -webkit-linear-gradient(to right, #ff4b2b00, #41ff8d00);
+	background: linear-gradient(to right, #0000004a, #0000007a);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	color: #ffffff;
+	position: relative;
+	left: -100%;
+	height: 100%;
+	width: 200%;
+}
+
+.overlay-panel {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 40px;
+	text-align: center;
+	top: 0;
+	height: 100%;
+	width: 50%;
+}
+
+.overlay-right {
+	right: 0;
+}
+
+.social-container {
+	margin: 25px 0;
+}
+
+.social-container a {
+	border: 1px solid #ffffff7b;
+	border-radius: 30%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 45px;
+	width: 50px;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
