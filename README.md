@@ -11,12 +11,10 @@
 <img src="https://imgur.com/b1hapEy.png">
 <img src="https://imgur.com/6QyhT2P.png">
 <img src="https://imgur.com/Zu1yzC3.png">
-<img src="https://imgur.com/o5bRSFk.png">
+<img width="1344" height="656" alt="image" src="https://github.com/user-attachments/assets/2439d76f-f874-4bdb-9307-8239e060863f" />
 <img src="https://imgur.com/XRPUvSJ.png">
-
 <img width="1349" height="653" alt="image" src="https://github.com/user-attachments/assets/79568915-6c69-4a23-ad67-2fa8371d2a78" />
 <img src="https://imgur.com/XR7HkKk.png">
-
 <img width="1356" height="650" alt="image" src="https://github.com/user-attachments/assets/e5c7667f-2beb-4410-981b-87639891dc84" />
 <img src="https://imgur.com/trIN4At.png">
 <img src="https://imgur.com/OeJSJYn.png">
