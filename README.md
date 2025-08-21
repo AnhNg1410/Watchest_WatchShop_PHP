@@ -6,7 +6,6 @@
 " Dự án ứng dụng web cơ bản để bán đồng hồ  bằng PHP cùng HTML, CSS và Javascrip "
 
 ** Ứng dụng vẫn đang được nâng cấp và cải tiến **
-Demo Web : http://anhwebsite.infinityfreeapp.com/?modules=home&action=dashboard
 
 
 <img src="https://imgur.com/b1hapEy.png">
@@ -14,9 +13,11 @@ Demo Web : http://anhwebsite.infinityfreeapp.com/?modules=home&action=dashboard
 <img src="https://imgur.com/Zu1yzC3.png">
 <img src="https://imgur.com/o5bRSFk.png">
 <img src="https://imgur.com/XRPUvSJ.png">
-<img src="https://imgur.com/UEBMlnJ.png">
+
+<img width="1349" height="653" alt="image" src="https://github.com/user-attachments/assets/79568915-6c69-4a23-ad67-2fa8371d2a78" />
 <img src="https://imgur.com/XR7HkKk.png">
-<img src="https://imgur.com/WADF4Gn.png">
+
+<img width="1356" height="650" alt="image" src="https://github.com/user-attachments/assets/e5c7667f-2beb-4410-981b-87639891dc84" />
 <img src="https://imgur.com/trIN4At.png">
 <img src="https://imgur.com/OeJSJYn.png">
 
